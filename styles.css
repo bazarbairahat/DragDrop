@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.534);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.36);
+  background: #7b00ff;
+  padding: 0.8rem 1rem;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #c31eff 0%, #0400ff 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #c31eff 0%, #0400ff 179.25%);
+}
+
+.done {
+  background: linear-gradient(90deg, #c31eff 0%, #0400ff 179.25%);
+}
+
+.hold {
+  border: 5px solid #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #7b00ff;
+  opacity: 0.2;
+}
